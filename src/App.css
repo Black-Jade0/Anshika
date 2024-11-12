@@ -1,0 +1,129 @@
+#root {
+    width: screen;
+    height: screen;
+}
+body {
+    margin: 0;
+    padding: 10px;
+    width: screen;
+    height: screen;
+    font-family: "Arial", sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    align-items: center;
+}
+
+h1,
+h2,
+p {
+    color: #00bfff; /* Blue accent */
+}
+
+nav {
+    background-color: #1a1a1a;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00bfff;
+}
+
+a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #00bfff;
+    color: #121212;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #009acd;
+}
+.quiz-div{
+  width: screen;
+}
+.quiz-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    background-color: #1f1f1f;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100vw;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #00bfff;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="radio"] {
+    margin: 0px 10px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00bfff;
+}
+
+div p {
+    margin-bottom: 0.5rem;
+}
+
+.quiz-page {
+    max-width: 600px;
+    background-color: #1f1f1f;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-page h1,
+.quiz-page h2 {
+    margin-bottom: 1rem;
+}
